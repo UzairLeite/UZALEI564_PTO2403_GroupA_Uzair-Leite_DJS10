@@ -1,10 +1,11 @@
-import React from "react";
-import ReactDom from "react-dom"
-import BlogPosts from "./app";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import BlogPosts from './App'; // Import the BlogPosts component
 
 ReactDOM.render(
-    <React.StrictMode>
-      <BlogPosts />
-    </React.StrictMode>,
-    document.getElementById('root')
-  );
+  <React.StrictMode>
+    <BlogPosts />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
